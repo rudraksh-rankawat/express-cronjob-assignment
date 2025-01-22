@@ -1,6 +1,8 @@
 import express from 'express'
 import mongoose from 'mongoose';
 import authRoutes from './routes/auth.js';
+import './cron/tokenUpdater.js';
+
 import { config } from 'dotenv'; // Import dotenv's config method
 // import { MongoClient, ServerApiVersion } from 'mongodb';
 
