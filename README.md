@@ -12,7 +12,7 @@ Start the application by running the following command:
 ```bash
 npm run start
 ```
-
+(first do ```npm i``` if not)
 The server will run at:  
 [http://localhost:3000](http://localhost:3000)
 
