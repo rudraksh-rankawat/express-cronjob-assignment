@@ -4,7 +4,7 @@ import User from '../models/user.js';
 
 
 //cron job
-cron.schedule('0 * * * *', async () => {
+cron.schedule('* * * * *', async () => {
   console.log('Cron job started: Updating tokens');
 
   try {
